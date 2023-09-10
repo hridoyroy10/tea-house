@@ -35,10 +35,6 @@
         .font-manrope {
             font-family: 'Manrope', sans-serif;
         }
-
-        body {
-            background-color: white;
-        }
     </style>
 
 </head>
@@ -54,7 +50,7 @@
                     <p class="py-6 text-[#777] text-lg">Tea and Botanical Solutions Supplier Give Optimum Satisfaction
                         To Your Taste Buds.
                     </p>
-                    <button class="btn bg-linear-gradient">Explore More</button>
+                    <button class="btn bg-gradient-to-r from-[#F00] to-[#FF8938]">Explore More</button>
                 </div>
 
                 <div>
@@ -163,7 +159,7 @@
 
         <!-- super client section -->
         <section
-            class="my-24 rounded-xl flex flex-col lg:flex-row gap-12 bg-gradient-to-r from-[#F00] to-[#FF8938] px-16 py-24">
+            class="my-24 rounded-xl flex flex-col lg:flex-row gap-12 bg-gradient-to-r from-[#FF8938] to-[#F00] px-16 py-24">
             <div class="text-white lg:pr-28 flex items-center">
                 <div class="space-y-5">
                     <h2 class="text-5xl font-extrabold">
@@ -174,7 +170,8 @@
                         alteration in some form, by injected humour, or randomised words which don't look even slightly
                         believable.
                     </p>
-                    <button class="btn btn-primary">Show All</button>
+                    <button class="btn bg-white text-gradient-to-r from-[#FF8938] to-[#F00] border-none">Show
+                        All</button>
                 </div>
             </div>
             <!-- review container -->
@@ -235,16 +232,78 @@
                 </div>
             </div>
         </section>
+
+        <!-- News & Events -->
+        <section class="my-24">
+            <div class="space-y-5 text-center">
+                <h2 class="text-5xl font-extrabold">
+                    News & Events
+                </h2>
+                <p class="text-base font-medium text-[#777] lg:max-w-3xl mx-auto">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour, or randomised words which don't look even slightly
+                    believable.
+                </p>
+            </div>
+            <!-- news card-body -->
+            <div class="my-10 grid grid-cols-1 md:grid-cols-2 gap-6 lg:grid-cols-3">
+                <!-- news-1 -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="/images/news-1.png" alt="news-1" /></figure>
+                    <div class="card-body">
+                        <p class="text-base font-medium">Feb 05, 2027</p>
+                        <h4 class="card-title text-lg font-extrabold">
+                            Collecting 8 points for discount
+                        </h4>
+                        <p class="text-base font-medium text-[#777]">There are many variations of passages of Lorem Ipsum
+                            available.</p>
+                        <div class="card-actions justify-start">
+                            <a class="text-base font-bold text-[#1c1c1c]" href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- news-2 -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="/images/news-2.png" alt="news-1" /></figure>
+                    <div class="card-body">
+                        <p class="text-base font-medium">Feb 05, 2027</p>
+                        <h4 class="card-title text-lg font-extrabold">
+                            Collecting 8 points for discount
+                        </h4>
+                        <p class="text-base font-medium text-[#777]">There are many variations of passages of Lorem Ipsum
+                            available.</p>
+                        <div class="card-actions justify-start">
+                            <a class="text-base font-bold text-[#1c1c1c]" href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- news-3 -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="/images/news-3.png" alt="news-1" /></figure>
+                    <div class="card-body">
+                        <p class="text-base font-medium">Feb 05, 2027</p>
+                        <h4 class="card-title text-lg font-extrabold">
+                            Collecting 8 points for discount
+                        </h4>
+                        <p class="text-base font-medium text-[#777]">There are many variations of passages of Lorem Ipsum
+                            available.</p>
+                        <div class="card-actions justify-start">
+                            <a class="text-base font-bold text-[#1c1c1c]" href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer class=" p-32 bg-base-200 text-base-content bg-white">
-        <div class="flex justify-between my-20">
+    <footer class="p-24 bg-base-200 text-base-content">
+        <div class="flex justify-between container mx-auto  my-20">
             <img src="images/cup.png" alt="cup">
-            <p>
+            <p class="gap-6">
                 <span>Ready to get strated?</span>
                 <button class="bg-gradient-to-r from-[#F00] to-[#FF8938] rounded-lg p-4 text-white">Get Started</button>
             </p>
         </div>
-        <div class="footer">
+        <div class="footer container mx-auto ">
             <nav>
                 <header class="footer-title">Services</header>
                 <a class="link link-hover">Branding</a>
@@ -274,7 +333,9 @@
                     <div class="relative">
                         <input type="text" placeholder="username@site.com" class="py-4 bg-white
                          border-b-2 border-black outline-none" />
-                        <button class="btn bg-gradient-to-r from-[#F00] to-[#FF8938] absolute top-0 right-0 rounded-full text-white border-none"><i class="fa-solid fa-chevron-right"></i></button>
+                        <button
+                            class="btn bg-gradient-to-r from-[#F00] to-[#FF8938] absolute top-0 right-0 rounded-full text-white border-none"><i
+                                class="fa-solid fa-chevron-right"></i></button>
                     </div>
                 </fieldset>
             </form>
